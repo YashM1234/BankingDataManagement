@@ -29,6 +29,5 @@ public class BankApp {
         MetricsCollector locationWiseGenderCollector = new TransactionByLocationWiseGenderMetrics();
         locationWiseGenderCollector.collect(bankTransactions);
 
-
     }
 }
